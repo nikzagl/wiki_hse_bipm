@@ -1,0 +1,13 @@
+.fullwidth {
+    width: 100%;
+}
+
+/* Горизонтальная прокрутка для мобильных */
+@media screen and (max-width: 768px) {
+    .wy-table-responsive {
+        overflow-x: auto;
+    }
+}
+p{
+    text-align: center
+}
