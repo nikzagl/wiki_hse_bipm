@@ -1,8 +1,9 @@
 # wiki_hse_bipm
 non official wiki of https://nnov.hse.ru/bipm/ 
 
-## Rendering
+## Rendering(needs docker installed)
 ```bash
-.\make html
+docker build -t wiki-hse-docs .
+docker run -it -v ./docs/build:/docs/build  wiki-hse-docs
 ```
-Result files are located in _build/html
+Result files are located in ./build
