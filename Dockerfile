@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir \
 WORKDIR /docs
 ADD ./docs .
 
- CMD ["sphinx-build", "-b", "html", "source", "build"]
+ CMD ["sphinx-build", "-b", "html", "source", "../build"]
