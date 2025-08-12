@@ -8,6 +8,6 @@
         overflow-x: auto;
     }
 }
-p{
+table.center-text-align td {
     text-align: center
 }
